@@ -1,3 +1,4 @@
 4 0 
-1 0.3
--38.127+3.472j 0 # infinitely thick gold layer, epsilon is for 1 mkm wavelength
+1 0.1
+-38.127+3.472j 0.04 # thin gold layer, epsilon is for 1 mkm wavelength
+1 0
