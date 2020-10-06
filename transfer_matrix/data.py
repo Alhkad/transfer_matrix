@@ -17,6 +17,9 @@ def load_data(path):
     thicknesses = []
     with open(join(path)) as file:
         for line in file:
+            line = line.split('#')[0].strip()
+            if not line:
+                continue
             eps, d = line.split()
             epsilons.append(complex(eps))
             thicknesses.append(float(d))
